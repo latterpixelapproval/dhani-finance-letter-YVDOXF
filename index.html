@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Approval Letter</title>
+
+
+</head>
+
+<body>
+
+  <br><br>
+  <form>
+    <label><b>Name</b></label>
+    <input type="text" id="name">
+
+    <label><b>Loan</b></label>
+    <input type="text" id="loanamount">
+
+    <label><b>Year</b></label>
+    <input type="number" id="year"><br><br>
+
+    <label><b>EMI</b></label>
+    <input type="text" id="emi">
+
+    <label><b>FEES</b></label>
+    <input type="text" id="fee">
+
+    &nbsp; &nbsp;
+
+    <input type="reset" style="width: 90px;">
+  </form><br><br>
+
+  <span id="subm">
+    <input style="width: 120px;" type="submit" onclick="showInput();">
+  </span>
+
+  <div>
+
+    <p style="height:100%; width:100%; background-image: url('letter.jpg'); background-repeat: no-repeat; font-family: 'Roboto Slab', serif; font-weight: 500; font-size: 22px;">
+      <br /><br /><br /><br /><br /><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <u>Date:- <span id="date"></span></u> <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Application No: REF/LOAN/CORRS/#0852<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <b>Name: <span id='display'>Label</span><br /></b>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Subject: Approval For The Personal Loan<br />
+      &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+      Greetings from Dhani Finance Pvt. Ltd.<br><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Dear Sir/Madam,<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      At the outset we welcome you to the world of DHANI FINANCE Private<br>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;Limited. It is my privilege to inform you that amount of Rs. <span id='display2'>Label</span>/-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Only can be financed by us for your loan interest rate at 2% Per Annum on<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reducing rate. This is to inform you that your file has come under process<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;positively of which.<br /><br>
+
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Process of <b>#0852</b>, further you are intimated to get your file registered in<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DHANI FINANCE PVT LTD so that we can take it into legal consideration<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and a legal charge of Rs. <span id='display3'>Label</span>.00/- <b>{All Amount is Refundable}</b> only will<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;be charges.<br><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <b><u>Loan Details:-</u><br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Loan Amount - Rs. <span id='display4'>Label</span><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Loan Period - <span id='display5'>Label</span> Years<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+EMI (in Rs.) - <span id='display6'>Label</span><br><br></b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      Payment this account:-<br />
+      &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; Name:- Dhani Finance Ltd <br />
+      &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; A/C:- 20176508114<br />
+      &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; IFSC:- FINO0000001<br />
+      
+
+      <br><br><br><br><br><br><br><br><br>
+
+    </p>
+
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+
+</html>
